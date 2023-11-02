@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Sogofex</title>
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="relative mx-3 p-2 pt-2 md:mx-12 md:p- mt-2 text-white">
+            <!-- Flex container -->
+            <div class="flex items-center justify-between">
+              <!-- Logo -->
+              <div>
+                  <a href="#">
+                    <!-- <img src="images/Logo.svg" alt="Logo"/> -->
+                    Sogofex
+                  </a>
+              </div>
+              <!-- Menu Items -->
+              <div class="hidden space-x-7 md:flex text-Grey font-light text-sm">
+                <a href="#" class="hover:opacity-80">Home</a>
+                <a href="#" class="hover:opacity-80">About</a>
+                <a href="#" class="hover:opacity-80">Services</a>
+              </div>
+    
+    
+              <!-- CTA/Button -->
+              <div class="hidden md:flex space-x-6 font-regular">
+                <!-- <a href="#" class="text-Green px-5 py-2 border-2 border-Green rounded-md hover:opacity-80">Log in</a> -->
+                <a href="#" class="bg-Green text-white px-5 py-3 rounded-md hover:opacity-80">Go To Showroom</a>
+              </div>
+    
+                <!-- Hamburger -->
+              <button id="menu-btn" class="block hamburger mt-3 md:hidden focus:outline-none">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+    
+            </div>
+    
+            <!-- Mobile Menu -->
+          <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-start w-screen h-screen hidden self-end py-8 space-y-6 sm:w-auto sm:self-cente">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+            </div>
+          </div>
+        </nav>
+   <script src="script.js"></script>
+</body>
+</html>
