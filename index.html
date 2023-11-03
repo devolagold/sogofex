@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Sogofex</title>
 </head>
 <body>
@@ -77,7 +78,7 @@
             <section id="Hero-Section" class="py-6 md:py-0">
                 <div class=" flex flex-col mx-3 space-y-8 p-2 md:mx-12 md:p-6 py-2 md:space-y-0">
                     <div class="flex items-center justify-center text-center md:mt-16 space-y-5 flex-col md:space-y-6">
-                        <h1 class="text-3xl font-bold text-[#FDFDFC] leading-tight text-center md:text-6xl md:text-header">
+                        <h1 class="fade-up text-3xl font-bold text-[#FDFDFC] leading-tight text-center md:text-6xl md:text-header">
                             Elevate Your Business: <br> The Ultimate <span class="text-[#667EFF]">Exhibition</span> Platform
                         </h1>
                         <p class="rubik text-sm text-center text-[#888888] md:mx-0 md:text-xl">
@@ -154,7 +155,7 @@
     <!-- Product Section -->
     <section id="products" class="py-6 md:px-24 md:py-12">
         <div class="flex items-center justify-center text-center md:mt-16 space-y-5 flex-col md:space-y-6">
-            <h1 class="text-3xl font-bold text-[#150C2D] leading-tight text-center md:text-5xl md:text-header">
+            <h1 data-aos="fade-up" class="text-3xl font-bold text-[#150C2D] leading-tight text-center md:text-5xl md:text-header">
                 Show Room: <br class="hidden md:block"> Check out <br class="block md:hidden"> <span class="text-[#667EFF]">products Exhibited</span>
             </h1>
             <p class="rubik text-sm text-center text-[#888888] md:mx-0 md:text-xl">
@@ -318,6 +319,11 @@
             <p class="text-[12px] md:text-base text-[#9A9FAE] rubik">&copy; 2023 Sogofex Trade Hub. All rights reserved. - Privacy Policy . Term of Service</p>
         </div>
     </section>
-   <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
