@@ -4,13 +4,26 @@
 *{
     box-sizing: border-box;
     /* background-color: #020617; */
-    background-color: #010001;
+    /* background-color: #010001; */
     /* font-family: "Rubik"; */
-    font-family: 'Cabinet Grotesk', sans-serif;
+  }
+  
+html, body{
+    font-family: 'Cabinet Grotesk';
+}
+
+.background{
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rubik{
+  font-family: "Rubik" !important;
 }
 
 /* Hamburger Menu */
-
 .hamburger {
     cursor: pointer;
     width: 28px;

@@ -8,8 +8,9 @@
   <title>Sogofex</title>
 </head>
 <body>
+    <div class="background">
         <!-- Navbar -->
-        <nav class="relative mx-3 p-2 pt-2 md:mx-16 md:p- mt-2 text-white">
+        <nav class="relative mx-3 p-2 pt-4 md:mx-16 text-white">
             <!-- Flex container -->
             <div class="flex items-center justify-between">
               <!-- Logo -->
@@ -21,7 +22,7 @@
               </div>
 
               <!-- Menu Items -->
-              <div class="hidden space-x-7 md:flex text-[#ffffff7a] text-sm">
+              <div class="hidden space-x-7 md:flex text-[#ffffff7a] text-sm rubik">
                 <a href="#" class="hover:opacity-90">Home</a>
                 <a href="#" class="hover:opacity-90">About</a>
                 <a href="#" class="hover:opacity-90">Services</a>
@@ -31,7 +32,15 @@
     
               <!-- CTA/Button -->
               <div class="hidden md:flex space-x-6 font-regular">
-                <a href="#" class="bg-[#0166F4] text-white px-5 py-3 text-sm rounded-md hover:opacity-80">Go To Showroom</a>
+                <a href="#" class=" flex items-center space-x-2 text-white px-5 py-3 text-sm rounded-md border-solid border-[2px] hover:opacity-80 rubik">
+                    <p>
+                        Exhibit Product
+                    </p>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.4297 5.93007L20.4997 12.0001L14.4297 18.0701" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 12L20.33 12" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </a>
               </div>
     
                 <!-- Hamburger -->
@@ -43,38 +52,77 @@
             </div>
     
             <!-- Mobile Menu -->
-          <div class="md:hidden">
+          <div class="md:hidden rubik">
             <div id="menu" class="absolute text-[#ffffff7a] flex-col items-start w-full ml-[-2px] h-screen hidden self-end py-4 space-y-6 sm:w-auto sm:self-cente">
               <a href="#">Home</a>
               <a href="#">About</a>
               <a href="#">Services</a>
               <a href="#">Contact Us</a>
-              <a href="#" class="bg-[#0166F4] text-white px-5 py-3 text-base rounded-md hover:opacity-80">Go To Showroom</a>
+              <a href="#" class=" flex items-center space-x-2 text-white px-5 py-3 text-sm rounded-md border-solid border-[2px] hover:opacity-80 rubik">
+                <p>
+                    Exhibit Product
+                </p>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.4297 5.93007L20.4997 12.0001L14.4297 18.0701" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.5 12L20.33 12" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                        
+            </a>
             </div>
           </div>
         </nav>
 
             <!-- Hero Section -->
-        <section id="Hero-Section" class="py-6 md:py-0">
-            <div class=" flex flex-col mx-3 space-y-8 p-2 md:mx-12 md:p-6 py-2 md:flex-row md:space-y-0">
-                <div class="flex items-center justify-center md:mt-16 space-y-5 flex-col md:w-1/2 md:items-start md:space-y-6">
-                    <h1 class="text-3xl font-bold text-[#FDFDFC] leading-tight text-center md:text-5xl md:text-header md:text-left">
-                        Showcase your <br> business to the world!
-                    </h1>
-                    <p class="text-sm text-center text-[#888888] md:text-left md:mx-0 md:text-base">We assist you in forging your own path and provide you <br class="hidden md:block">
-                        with on-demand skills to help you realize your dreams.</p>
+            <section id="Hero-Section" class="py-6 md:py-0">
+                <div class=" flex flex-col mx-3 space-y-8 p-2 md:mx-12 md:p-6 py-2 md:space-y-0">
+                    <div class="flex items-center justify-center text-center md:mt-16 space-y-5 flex-col md:space-y-6">
+                        <h1 class="text-3xl font-bold text-[#FDFDFC] leading-tight text-center md:text-6xl md:text-header">
+                            Elevate Your Business: <br> The Ultimate <span class="text-[#667EFF]">Exhibition</span> Platform
+                        </h1>
+                        <p class="rubik text-sm text-center text-[#888888] md:mx-0 md:text-xl">
+                            Discover a world of innovation and excellence as businesses come <br class="hidden md:block">
+                            together to showcase their finest products. 
+                        </p>
+    
+                        <div class="flex space-x-4 font-regular">
+                            <a href="#" class="bg-[#667EFF] text-sm flex items-center space-x-2 text-white px-5 py-3 text-sm md:text-base rounded-md hover:opacity-90 rubik">
+                                <p>
+                                    Exhibit Product
+                                </p>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.4297 5.93007L20.4997 12.0001L14.4297 18.0701" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3.5 12L20.33 12" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                        
+                            </a>
+                            <a href="#" class="rubik bg-Green text-sm  text-white px-5 py-3 md:text-base rounded-md hover:opacity-80">Show Room</a>
+                        </div>
+                    </div>
+    
+                    <div class="flex space-x-4 md:space-x-12 justify-center py-6 md:py-12 items-center text-center">
+                        <div class="flex flex-col space-y-2 text-center">
+                            <h1 class="text-2xl md:text-5xl font-bold text-[#FAFAFA]">975<span class="text-[#667EFF]">K+</span>
+                            </h1>
+                            <p class="rubik text-sm md:text-base text-white opacity-60 ">Thousands of unique <br class="hidden md:block"> Products exhibited</p>
+                        </div>
+                        
+                        <div class="py-4">
+                            <svg width="2" height="66" viewBox="0 0 2 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.867188 0.419067V105.086" stroke="#FAFAFA" stroke-opacity="0.16" stroke-width="1.49524"/>
+                            </svg>                                
+                        </div>
 
-                    <div class="flex space-x-4 font-regular">
-                        <a href="#" class="flex items-center space-x-4 bg-[#0166F4] text-sm text-white px-5 py-3 md:text-base rounded-md hover:opacity-80">Join now!</a>
-                        <a href="#" class="bg-Green text-sm  text-white px-5 py-3 md:text-base rounded-md border-solid border-[2px] hover:opacity-80">Go to Showroom</a>
+                        <div class="flex flex-col space-y-2 text-center">
+                            <h1 class="text-2xl md:text-5xl font-bold text-[#FAFAFA]">195<span class="text-[#667EFF]">K+</span></h1>
+                            <p class="rubik text-sm md:text-base text-white opacity-60">
+                                A wide selection of <br class="hidden md:block"> categories of Products</p>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="md:w-1/2">
-                    <img src="images/Verify-Identity-of-Customers.jpg" alt="Hero-Image" class="w-screen">
-                </div>
+            <div class="py-6 md:py-12">
+                <img src="images/hero-image.png" alt="">
             </div>
-        </section>
+    </div>
    <script src="script.js"></script>
 </body>
 </html>
