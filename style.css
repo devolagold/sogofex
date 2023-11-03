@@ -23,6 +23,13 @@ html, body{
   font-family: "Rubik" !important;
 }
 
+.footer-bg{
+    background-image: url(images/footer-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Hamburger Menu */
 .hamburger {
     cursor: pointer;
