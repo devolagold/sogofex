@@ -78,10 +78,10 @@
             <section id="Hero-Section" class="py-6 md:py-0">
                 <div class=" flex flex-col mx-3 space-y-8 p-2 md:mx-12 md:p-6 py-2 md:space-y-0">
                     <div class="flex items-center justify-center text-center md:mt-16 space-y-5 flex-col md:space-y-6">
-                        <h1 class="fade-up text-3xl font-bold text-[#FDFDFC] leading-tight text-center md:text-6xl md:text-header">
+                        <h1 data-aos="fade-down" data-aos-duration="1000" class="fade-up text-3xl font-bold text-[#FDFDFC] leading-tight text-center md:text-6xl md:text-header">
                             Elevate Your Business: <br> The Ultimate <span class="text-[#667EFF]">Exhibition</span> Platform
                         </h1>
-                        <p class="rubik text-sm text-center text-[#888888] md:mx-0 md:text-xl">
+                        <p data-aos="fade-up" data-aos-duration="1000" class="rubik text-sm text-center text-[#888888] md:mx-0 md:text-xl">
                             Discover a world of innovation and excellence as businesses come <br class="hidden md:block">
                             together to showcase their finest products. 
                         </p>
@@ -153,12 +153,12 @@
     </section>
 
     <!-- Product Section -->
-    <section id="products" class="py-6 md:px-24 md:py-12">
+    <section id="products" class="flex flex-col justify-center items-center py-6 md:px-24 md:py-12">
         <div class="flex items-center justify-center text-center md:mt-16 space-y-5 flex-col md:space-y-6">
             <h1 data-aos="fade-up" class="text-3xl font-bold text-[#150C2D] leading-tight text-center md:text-5xl md:text-header">
                 Show Room: <br class="hidden md:block"> Check out <br class="block md:hidden"> <span class="text-[#667EFF]">products Exhibited</span>
             </h1>
-            <p class="rubik text-sm text-center text-[#888888] md:mx-0 md:text-xl">
+            <p class="rubik font-light text-sm text-center text-[#888888] md:mx-0 md:text-xl">
                 Discover a world of innovation and excellence as businesses come <br class="hidden md:block">
                 together to showcase their finest products. 
             </p>
@@ -184,8 +184,8 @@
          </div>
 
         <div class="grid gap-4 md:gap-6 my-8 mx-6 grid-cols-1 md:grid-cols-3">
-            <div class="product">
-                <div class="product-image">
+            <a href="product.html" class="product">
+                <div data-aos="fade-right" data-aos-duration="500" class="product-image">
                     <img src="images/card-image.jpg" alt="">
                 </div>
                 <div class="product-details flex flex-col space-y-3 mt-3">
@@ -218,10 +218,10 @@
                     </div>
                     <h1 class="product-price text-2xl font-bold">$3,000</h1>
                 </div>
-            </div>
+            </a>
 
-            <div class="product">
-                <div class="product-image">
+            <a href="product.html" class="product">
+                <div data-aos="fade-down" data-aos-duration="500" class="product-image">
                     <img src="images/card-image.jpg" alt="">
                 </div>
                 <div class="product-details flex flex-col space-y-3 mt-3">
@@ -254,10 +254,10 @@
                     </div>
                     <h1 class="product-price text-2xl font-bold">$3,000</h1>
                 </div>
-            </div>
+            </a>
 
-            <div class="product">
-                <div class="product-image">
+            <a href="product.html" class="product">
+                <div data-aos="fade-left" data-aos-duration="500" class="product-image">
                     <img src="images/card-image.jpg" alt="">
                 </div>
                 <div class="product-details flex flex-col space-y-3 mt-3">
@@ -290,15 +290,24 @@
                     </div>
                     <h1 class="product-price text-2xl font-bold">$3,000</h1>
                 </div>
-            </div>
+            </a>
         </div>
+        <a href="#" class="w-fit text-center flex items-center space-x-2 text-[#0C071E] px-5 py-3 text-sm rounded-md border-solid border-[2px] border-[#0C071E] hover:opacity-80 rubik">
+            <p>
+                See more products
+            </p>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.4297 5.93007L20.4997 12.0001L14.4297 18.0701" stroke="#0C071E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3.5 12L20.33 12" stroke="#0C071E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                        
+        </a>
     </section>
 
 
     <!-- Footer -->
     <section id="Footer" class="footer-bg py-6 md:px-24 md:py-12">
         <div class="flex flex-col items-center text-center space-y-4 md:space-y-8">
-            <h1 class="text-2xl font-bold text-[#FDFDFC] leading-tight text-center md:text-6xl md:text-header">
+            <h1 data-aos="fade-down" data-aos-duration="1000" class="text-2xl font-bold text-[#FDFDFC] leading-tight text-center md:text-6xl md:text-header">
                 Join millions of Businesses <br> and exhibit your products today
             </h1>
 
