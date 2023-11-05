@@ -3,6 +3,7 @@
 
 *{
     box-sizing: border-box;
+    /* overflow-y: scroll; */
     /* background-color: #020617; */
     /* background-color: #010001; */
     /* font-family: "Rubik"; */
@@ -21,6 +22,10 @@ html, body{
 
 .rubik{
   font-family: "Rubik" !important;
+}
+
+section{
+  overflow-y: scroll;
 }
 
 .footer-bg{
