@@ -25,7 +25,7 @@ html, body{
 }
 
 section{
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .footer-bg{
