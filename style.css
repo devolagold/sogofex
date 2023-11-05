@@ -28,6 +28,27 @@ section{
   overflow-y: hidden;
 }
 
+.marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee p, .marquee img {
+  float: left;
+  margin-right: 20px; /* Adjust the spacing between text and image */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee p, .marquee img {
+  animation: marquee 10s linear infinite;
+}
+
+
+
 .footer-bg{
     background-image: url(images/footer-background.jpg);
     background-position: center;
